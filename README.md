@@ -1,16 +1,48 @@
-# React + Vite
+# Mulebuy Link Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🔗 Vue d'ensemble
 
-Currently, two official plugins are available:
+Cet outil web a été développé pour faciliter le processus d'achat en Chine en permettant aux utilisateurs de **convertir rapidement les liens de produits Taobao et Weidian au format compatible avec la plateforme de commande Mulebuy.**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Plus besoin de manipulation complexe d'URL : l'application génère l'URL Mulebuy prête à être utilisée, accélérant ainsi la soumission des articles.
 
-## React Compiler
+## ✨ Fonctionnalités
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Conversion Rapide :** Transforme instantanément les liens Taobao ou Weidian en liens Mulebuy.
+* **Interface Utilisateur Simple :** Conçu pour une utilisation intuitive et minimale.
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Utilisées
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Ce projet a été initialisé en utilisant la configuration de base de React et Vite.
+
+* **Framework :** React
+* **Bundler :** Vite
+* **Langage :** JavaScript / JSX
+
+## 🚀 Installation et Démarrage Local
+
+Pour lancer le convertisseur sur votre machine locale, suivez les étapes ci-dessous.
+
+1.  **Cloner le dépôt :**
+    ```bash
+    git clone [https://github.com/estebanEtudiant/mulebuy-converter-site.git](https://github.com/estebanEtudiant/mulebuy-converter-site.git)
+    cd mulebuy-converter-site
+    ```
+
+2.  **Installer les dépendances :**
+    ```bash
+    npm install
+    ```
+
+3.  **Lancer le serveur de développement :**
+    ```bash
+    npm run dev
+    ```
+    L'application sera accessible dans votre navigateur à l'adresse indiquée dans la console (généralement `http://localhost:5173`).
+
+## 📦 Build pour la Production
+
+Pour créer la version optimisée de l'application :
+
+```bash
+npm run build
